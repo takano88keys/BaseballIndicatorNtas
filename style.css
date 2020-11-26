@@ -1,23 +1,5 @@
 
-/* iOSでのデフォルトスタイルをリセット */
-input[type="submit"],
-input[type="button"] {
-  border-radius: 0;
-  -webkit-box-sizing: content-box;
-  -webkit-appearance: button;
-  appearance: button;
-  border: none;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-input[type="submit"]::-webkit-search-decoration,
-input[type="button"]::-webkit-search-decoration {
-  display: none;
-}
-input[type="submit"]::focus,
-input[type="button"]::focus {
-  outline-offset: -2px;
-}
+
 @media (max-width: 1000px ) {
 .title{
     width:100%;
@@ -34,13 +16,18 @@ input[type="button"]::focus {
 }
 .ClearSingleButtonsBox{
     width:10%;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 #BallIndicator,#StrikeIndicator,#OutIndicator{
     width:70%;
+
 } 
 #BSClearBtn,#AllClearBtn{
     height:35px;
     width: 50%;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 }
@@ -128,7 +115,9 @@ input[type="button"]::focus {
     margin-left:3px;
     color:black;
     font-size: 15%;
-    text-align:center
+    text-align:
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 .BallButtonsBox{
     height:90px;
