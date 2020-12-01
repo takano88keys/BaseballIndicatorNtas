@@ -1,6 +1,6 @@
 
 
-@media (max-width: 1000px ) {
+@media (max-width: 480px ) {
 .title{
     width:100%;
     background-color:black ;
@@ -29,9 +29,9 @@
 } 
 #BSClearBtn,#AllClearBtn{
     height:35px;
-    width: 50%;
+    width: 45%;
     -webkit-appearance: none;
-    border-radius: 0;
+    border-radius: 5%;
 }
 
 }
@@ -41,7 +41,7 @@
 
 .titleA{
     display:inline-block;
-    width: 380px;
+    width: 350px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
     font-size      : 28pt;               /* 文字のサイズ */
@@ -58,7 +58,7 @@
 }
 .titleB{
     
-    width:380px;
+    width:350px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
     font-size      : 12pt;               /* 文字のサイズ */
@@ -79,7 +79,7 @@
 .IndicatorButtonWrap{
     display: flex;
     align-items: center;
-    width:380px;
+    width:350px;
 }
 .bsoContainer{
     background-color: black;
@@ -199,14 +199,16 @@
     flex-direction: column;
     font-size:30px;
     width: 100%;
-    
+
+    /*
 }
 .ClearMultiButtonBox{
-    width:100%;
+    display: flex;
+}
+*/
 }
 #BSClearBtn,#AllClearBtn{
+    width:160px;    
     height:60px;
-    width: 170px;
     margin:5px;
-    
 }
