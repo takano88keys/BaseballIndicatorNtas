@@ -41,7 +41,7 @@
 
 .titleA{
     display:inline-block;
-    width: 480px;
+    width: 440px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
     font-size      : 28pt;               /* 文字のサイズ */
@@ -58,10 +58,10 @@
 }
 .titleB{
     
-    width:480px;
+    width:440px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
-    font-size      : 8pt;               /* 文字のサイズ */
+    font-size      : 12pt;               /* 文字のサイズ */
     letter-spacing : 4px;                /* 文字間 */
     text-shadow    : 
          2px  2px 1px #003366,
@@ -79,7 +79,7 @@
 .IndicatorButtonWrap{
     display: flex;
     align-items: center;
-    width:480px;
+    width:440px;
 }
 .bsoContainer{
     background-color: black;
@@ -122,7 +122,7 @@
     color:black;
     font-size: 50%;
     text-align:
-
+    -webkit-appearance: none;
 }
 .BallButtonsBox{
     height:120px;
@@ -205,7 +205,7 @@
 }
 #BSClearBtn,#AllClearBtn{
     height:60px;
-    width: 230px;
+    width: 200px;
     margin:5px;
     
 }
