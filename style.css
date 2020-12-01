@@ -41,7 +41,7 @@
 
 .titleA{
     display:inline-block;
-    width: 440px;
+    width: 380px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
     font-size      : 28pt;               /* 文字のサイズ */
@@ -58,7 +58,7 @@
 }
 .titleB{
     
-    width:440px;
+    width:380px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
     font-size      : 12pt;               /* 文字のサイズ */
@@ -79,7 +79,7 @@
 .IndicatorButtonWrap{
     display: flex;
     align-items: center;
-    width:440px;
+    width:380px;
 }
 .bsoContainer{
     background-color: black;
@@ -92,27 +92,27 @@
 }
 .Title_BSO{
     color: white;
-    font-size: 72px;
+    font-size: 68px;
     margin:0px;
 }
 #BallIndicator{
-    height:120px;
+    height:105px;
     color:green;
-    font-size: 120px;
+    font-size: 100px;
     margin-top:5px;
     margin-bottom: 5px;
 }
 #StrikeIndicator{
-    height:120px;
+    height:105px;
     color:yellow;
-    font-size: 120px;
+    font-size: 100px;
     margin-top:5px;
     margin-bottom: 5px;
  }
 #OutIndicator{
-    height:120px;
+    height:105px;
     color:red;
-    font-size: 120px;
+    font-size: 100px;
     margin-top:5px;
     margin-bottom: 5px;
 }
@@ -189,6 +189,7 @@
 }
 .ClearSingleButtonsBox{
     width:15%;
+    -webkit-appearance: none;
 }
 #BallClearBtn,#StrikeClearBtn,#OutClearBtn{
     display: flex;
@@ -205,7 +206,7 @@
 }
 #BSClearBtn,#AllClearBtn{
     height:60px;
-    width: 200px;
+    width: 170px;
     margin:5px;
     
 }
