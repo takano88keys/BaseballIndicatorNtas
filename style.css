@@ -6,12 +6,15 @@
     background-color:black ;
 }
 .BSOWrap{
+    display: inline-block;
     width:100%;
 }
 .bsoContainer{
+    display: inline-block;
     width:10%;
 }
 .IndicatorButtonWrap{
+    display: inline-block;
     width:10%;
 }
 .ClearSingleButtonsBox{
@@ -21,6 +24,7 @@
 }
 #BallIndicator,#StrikeIndicator,#OutIndicator{
     width:70%;
+    display: inline-block;
 
 } 
 #BSClearBtn,#AllClearBtn{
@@ -31,11 +35,13 @@
 }
 
 }
-
+.BSOWrap{
+    -webkit-appearance: none;
+}
 
 .titleA{
     display:inline-block;
-    width: 290px;
+    width: 480px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
     font-size      : 28pt;               /* 文字のサイズ */
@@ -52,7 +58,7 @@
 }
 .titleB{
     
-    width:290px;
+    width:480px;
     text-align: center;
     color          : #ffffff;            /* 文字の色 */
     font-size      : 8pt;               /* 文字のサイズ */
@@ -73,7 +79,7 @@
 .IndicatorButtonWrap{
     display: flex;
     align-items: center;
-    width:300px;
+    width:480px;
 }
 .bsoContainer{
     background-color: black;
@@ -86,27 +92,27 @@
 }
 .Title_BSO{
     color: white;
-    font-size: 48px;
+    font-size: 72px;
     margin:0px;
 }
 #BallIndicator{
-    height:80px;
+    height:120px;
     color:green;
-    font-size: 72px;
+    font-size: 120px;
     margin-top:5px;
     margin-bottom: 5px;
 }
 #StrikeIndicator{
-    height:80px;
+    height:120px;
     color:yellow;
-    font-size: 72px;
+    font-size: 120px;
     margin-top:5px;
     margin-bottom: 5px;
  }
 #OutIndicator{
-    height:80px;
+    height:120px;
     color:red;
-    font-size: 72px;
+    font-size: 120px;
     margin-top:5px;
     margin-bottom: 5px;
 }
@@ -114,66 +120,72 @@
     width:15%;
     margin-left:3px;
     color:black;
-    font-size: 15%;
+    font-size: 50%;
     text-align:
 
 }
 .BallButtonsBox{
-    height:90px;
+    height:120px;
     background: gray;
     margin:1px;
     display: flex; 
     flex-direction: column; 
 }
 .StrikeButtonsBox{
-    height:90px;
+    height:120px;
     background-color: gray;
     margin:1px;
     display: flex; 
     flex-direction: column; 
 }
 .OutButtonsBox{
-    height:90px;
+    height:120px;
     background-color: gray;
     margin:1px;
     display: flex; 
     flex-direction: column; 
 }
 #BallPlusBtn{
-    height:45px;
+    font-size:30px;
+    height:60px;
     margin:1px;
     padding:1px;
-    -webkit-appearance: none;
+
 }
 #BallMinusBtn{
-    height:45px;
+    font-size:30px;
+    height:60px;
     margin:1px;
     padding:1px;
-    -webkit-appearance: none;
+
 }
 #StrikePlusBtn{
-    height:45px;
+    font-size:30px;
+    height:60px;
     margin:1px;
     padding:1px;
-    -webkit-appearance: none;
+
 }
 #StrikeMinusBtn{
-    height:45px;
+    font-size:30px;
+    height:60px;
     margin:1px;
     padding:1px;
-    -webkit-appearance: none;
+
 }
 #OutPlusBtn{
-    height:45px;
+    font-size:30px;
+    height:60px;
     margin:1px;
     padding:1px;
-    -webkit-appearance: none;
+    
 }
 #OutMinusBtn{
-    height:45px;
+    font-size:30px;
+    height:60px;
     margin:1px;
     padding:1px;
-    -webkit-appearance: none;
+    
 }
 .ClearSingleButtonsBox{
     width:15%;
@@ -182,17 +194,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 120px;
     flex-direction: column;
-    font-size:20px;
+    font-size:30px;
     width: 100%;
-    -webkit-appearance: none;
+    
 }
 .ClearMultiButtonBox{
     width:100%;
 }
 #BSClearBtn,#AllClearBtn{
-    height:35px;
-    width: 138px;
-    -webkit-appearance: none;
+    height:60px;
+    width: 230px;
+    margin:5px;
+    
 }
