@@ -16,11 +16,13 @@
 .IndicatorButtonWrap{
     display: inline-block;
     width:10%;
+    -webkit-appearance: none;
 }
 .ClearSingleButtonsBox{
     width:10%;
     -webkit-appearance: none;
     border-radius: 0;
+    -webkit-appearance: none;
 }
 #BallIndicator,#StrikeIndicator,#OutIndicator{
     width:70%;
@@ -32,6 +34,7 @@
     width: 45%;
     -webkit-appearance: none;
     border-radius: 5%;
+    -webkit-appearance: none;
 }
 
 }
@@ -122,7 +125,7 @@
     color:black;
     font-size: 50%;
     text-align:
-    
+    -webkit-appearance: none;
 }
 .BallButtonsBox{
     height:120px;
@@ -130,6 +133,7 @@
     margin:1px;
     display: flex; 
     flex-direction: column; 
+    -webkit-appearance: none;
 }
 .StrikeButtonsBox{
     height:120px;
@@ -137,6 +141,7 @@
     margin:1px;
     display: flex; 
     flex-direction: column; 
+    -webkit-appearance: none;
 }
 .OutButtonsBox{
     height:120px;
@@ -144,6 +149,7 @@
     margin:1px;
     display: flex; 
     flex-direction: column; 
+    -webkit-appearance: none;
 }
 #BallPlusBtn{
     font-size:30px;
