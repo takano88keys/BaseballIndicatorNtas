@@ -84,7 +84,7 @@ head{
 }
 .bsoContainer{
     background-color: black;
-    width:70%;
+    width:80%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .BSOBox{
@@ -154,42 +154,42 @@ head{
     height:60px;
     margin:1px;
     padding:1px;
-    
+    border-radius: 3;
 }
 #BallMinusBtn{
     font-size:30px;
     height:60px;
     margin:1px;
     padding:1px;
-    
+    border-radius: 3;
 }
 #StrikePlusBtn{
     font-size:30px;
     height:60px;
     margin:1px;
     padding:1px;
-    
+    border-radius: 3;
 }
 #StrikeMinusBtn{
     font-size:30px;
     height:60px;
     margin:1px;
     padding:1px;
-    
+    border-radius: 3;
 }
 #OutPlusBtn{
     font-size:30px;
     height:60px;
     margin:1px;
     padding:1px;
-    
+    border-radius: 3;
 }
 #OutMinusBtn{
     font-size:30px;
     height:60px;
     margin:1px;
     padding:1px;
-    
+    border-radius: 3;
 }
 .ClearSingleButtonsBox{
     width:15%;
