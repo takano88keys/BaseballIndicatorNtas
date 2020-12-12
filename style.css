@@ -1,4 +1,4 @@
-head{
+body{
     -webkit-appearance: none;
     border-radius: 0;
 }
@@ -26,7 +26,7 @@ head{
     border-radius: 0;
 }
 #BallIndicator,#StrikeIndicator,#OutIndicator{
-    width:70%;
+    width:80%;
     display: inline-block;
 
 } 
@@ -80,7 +80,7 @@ head{
 .IndicatorButtonWrap{
     display: flex;
     align-items: center;
-    width:350px;
+    width:375px;
 }
 .bsoContainer{
     background-color: black;
