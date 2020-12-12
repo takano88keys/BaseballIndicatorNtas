@@ -1,5 +1,6 @@
-body{
+head{
     -webkit-appearance: none;
+    border-radius: 0;
 }
 
 @media (max-width: 480px ) {
